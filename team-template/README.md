@@ -9,25 +9,41 @@
 ## 👥 ข้อมูลทีม
 - **ชื่อทีม:** _______________
 - **เลขทีม:** XX
-- **สมาชิก:** _______________
 - **ชื่อบอร์ด:** team-XX-q
+- **สมาชิก + บทบาท (3H):**
+  - 🛠️ **Hacker** (เทคนิค: ต่อบอร์ด/เก็บ data/train/deploy): _______________
+  - 🎨 **Hipster** (ผู้ใช้: output ที่คนเข้าใจ/รูปแบบใช้งาน): _______________
+  - 📣 **Hustler** (คุณค่า: ปัญหา/ผู้ใช้/เล่าเดโม่): _______________
 
 ## ✅ Checklist
-**เช้า**
-- [ ] ตั้งบอร์ดเป็นของทีม (รหัส/ชื่อ/Wi-Fi)
-- [ ] ต่อ input ครบ 3 → [morning/hardware-check.md](morning/hardware-check.md)
 
-**บ่าย**
+**เช้า — ทำให้ UNO Q อยู่มือ**
+- [ ] ตั้งบอร์ดเป็นของทีม (รหัส/ชื่อ/Wi-Fi) → [student/02-setup-board.md](../student/02-setup-board.md)
+- [ ] ต่อ input + ลอง Modulino 7 ตัว + challenges → [morning/hardware-check.md](morning/hardware-check.md)
+
+**บ่าย — เทรนจริง**
 - [ ] input ที่เลือกเทรน: _______________
-- [ ] เทรน V1 ได้ → [afternoon/model.md](afternoon/model.md)
+- [ ] เทรน V1 + อ่าน F1/confusion matrix → [afternoon/model.md](afternoon/model.md)
 - [ ] deploy ลงบอร์ดรันได้ (รูป/คลิปใน `assets/`)
-- [ ] prediction log ≥10 → [afternoon/predictions.csv](afternoon/predictions.csv)
+- [ ] prediction log ≥10 cases → [afternoon/predictions.csv](afternoon/predictions.csv)
 
-## 📝 ตอบสั้น 3 ข้อ
-**1. ทีมสอน AI ให้ทำอะไร?** _______________
-**2. model ทำได้ดีแค่ไหน ผิดตรงไหนบ่อย?** _______________
+**ต่อยอด — ไอเดียนวัตกรรม**
+- [ ] Lean Canvas 4 ช่องแรก → [idea-canvas.md](idea-canvas.md)
+
+## 📝 ตอบสั้น 3 ข้อ (ปิดวัน)
+**1. ทีมสอน AI ให้ทำอะไร? (ปัญหา + ผู้ใช้)** _______________
+**2. model ทำได้ดีแค่ไหน F1 ต่ำสุดที่ class ไหน ผิดเพราะอะไร?** _______________
 **3. ถ้ามีเวลาอีก 1 ชม. จะแก้อะไรก่อน?** _______________
 
 ## 🔗 ลิงก์
 - Edge Impulse project: _______________
 - รูป/คลิป model รันบนบอร์ด: ดูใน [assets/](assets/)
+
+## 📦 ในโฟลเดอร์นี้มีอะไร
+| ไฟล์ | กรอกตอนไหน |
+|---|---|
+| [morning/hardware-check.md](morning/hardware-check.md) | เช้า — ต่อ input + ลอง Modulino |
+| [afternoon/model.md](afternoon/model.md) | บ่าย — ผลเทรน + deploy |
+| [afternoon/predictions.csv](afternoon/predictions.csv) | บ่าย — ทดสอบ 10 cases |
+| [idea-canvas.md](idea-canvas.md) | ท้ายวัน — ไอเดียต่อยอด |
+| [assets/](assets/) | รูป/คลิปหลักฐานทั้งหมด |

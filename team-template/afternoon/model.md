@@ -6,6 +6,7 @@
 - **Input ที่ใช้:** _______________
 - **Classes:** _______________
 - **จำนวนตัวอย่าง/class:** _______________
+- **วิธีเชื่อมเข้า Edge Impulse:** [ ] กล้อง/ไมค์ (`edge-impulse-linux`)  [ ] Modulino (`data-forwarder`)
 
 ## V1
 - Accuracy (ใน Studio): ____
@@ -19,5 +20,10 @@
 - Accuracy V2: ____  | ดีขึ้น/แย่ลงตรงไหน: _______________
 
 ## รันบนบอร์ด
-- [ ] deploy ลง UNO Q ได้
+- [ ] deploy target = **Arduino UNO Q** → Build → import ใน App Lab → Run
+- [ ] ป้อน input จริงแล้ว prediction เปลี่ยนตาม
 - คลิป/รูปตอนรัน: ![run](../assets/run.jpg)
+
+## (ต่อยอด) Output logic
+- threshold ที่ใช้: confidence ≥ ____
+- map class → output: _______________ (เช่น "เตือน" → Buzzer + Pixels แดง)
